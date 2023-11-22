@@ -8,3 +8,28 @@ Ensure inclusive and quality education for all and promote lifelong learning
 //Inclusive and safe schools
 
 Chart 1 - 7
+
+Steps on cleaning data
+- import data
+- Rename column
+- replace null to zero
+- create date column using AC-CFE 12/31/xxxx
+- Merged 3 digits table
+- expand in definition
+- unselect null in merged column
+- remove unused column
+- re order column
+- chaange data type
+
+-- Add on cleaned Data
+
+
+----------------------------
+Create a Dim_Schools_Access
+0 - Electricity
+1 - Wash
+2 - Drinking Water
+3 - Computers
+4 - Internet
+5 - Share of schools with access to single sex basic sanitation
+6 - Schools materials students with disabilities
