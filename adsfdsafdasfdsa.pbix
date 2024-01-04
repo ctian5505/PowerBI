@@ -1,0 +1,7 @@
+
+-Prac Rank = 
+    VAR _Desc =RANKX(ALL(Fact_Table[Entity]), [Entity Value], , DESC, Dense)
+    VAR _Asc =RANKX(ALL(Fact_Table[Entity]), [Entity Value], , ASC, Dense)
+
+    RETURN
+        _Asc
